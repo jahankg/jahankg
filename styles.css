@@ -1,0 +1,100 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    background: #f4f1ea;
+    color: #1a1a1a;
+    font-family: 'Crimson Text', Georgia, serif;
+    font-size: 1.15rem;
+    line-height: 1.55;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+.wrap {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 3.5rem 1.25rem 4rem;
+}
+
+/* nav */
+nav {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.85rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1a1a1a;
+    padding-bottom: 2px;
+}
+
+nav a.here {
+    border-bottom: 2px solid #1a1a1a;
+}
+
+nav a:hover {
+    color: #666;
+}
+
+h1 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin: 0 0 1.5rem;
+}
+
+p {
+    margin: 0 0 0.4rem;
+}
+
+ul {
+    margin: 0 0 1.6rem;
+    padding-left: 1.4rem;
+}
+
+li {
+    margin-bottom: 0.25rem;
+}
+
+a {
+    color: inherit;
+    text-underline-offset: 2px;
+}
+
+a:hover {
+    color: #666;
+}
+
+.muted {
+    color: #666;
+}
+
+.italic {
+    font-style: italic;
+}
+
+footer {
+    margin-top: 3rem;
+    font-size: 0.95rem;
+    color: #666;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 1.05rem;
+    }
+    .wrap {
+        padding: 2.25rem 1.1rem 3rem;
+    }
+    h1 {
+        font-size: 1.45rem;
+    }
+}
