@@ -11,91 +11,27 @@
     <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-    <div class="wrap wide">
+    <div class="wrap">
         <nav>
             <a href="/">home</a>
             <a href="/portfolio/" class="here">portfolio</a>
         </nav>
 
         <h1>Portfolio</h1>
-        <p class="muted">Most of these are robotics. Click through for repos and writeups.</p>
 
-        <!-- years are approximate, fix when I get a minute -->
         <h2 class="year">2026</h2>
-
-        <div class="project" id="hcu-tech">
-            <h3>HCU Tech</h3>
-            <p class="blurb">Affordable precision hardware for under-resourced robotics teams.</p>
-            <p>Hardware for Community Uplift makes precision parts and gets them to teams that
-                can't afford the usual options, so the cost of building a competitive robot comes
-                down. <!-- TODO: name the actual parts we make + a line on how it started --></p>
-            <!-- <figure><img src="img/hcu.jpg" alt=""><figcaption></figcaption></figure> -->
-            <p class="links">
-                <a href="https://hcu-tech.org">hcu-tech.org</a>
-            </p>
-        </div>
-
-        <div class="project" id="360h-codebase">
-            <h3>360H Worlds Codebase</h3>
-            <p class="blurb">Control code for team 360H.</p>
-            <p><!-- TODO: write this up — what 360H is building this season and what the code does. --></p>
-            <p class="links">
-                <!-- TODO: github repo -->
-                <a href="https://github.com/jahankg">github</a>
-            </p>
-        </div>
+        <ul>
+            <li id="hcu-tech"><a href="https://hcu-tech.org">HCU Tech</a> &mdash; affordable precision hardware for under-resourced robotics teams</li>
+            <li id="vpm"><a href="https://github.com/HCU-Vex/vpm">VPM</a> &mdash; a package manager for VEXcode V5 C++ projects; install libraries from GitHub with one command (<a href="https://github.com/HCU-Vex/vpm-template">template</a>, <a href="https://github.com/HCU-Vex/depot">depot</a>)</li>
+            <li id="360h-codebase"><a href="https://github.com/360H-Half-Circle/360H-Worlds-Codebase">360H Worlds Codebase</a> &mdash; control code for team 360H</li>
+        </ul>
 
         <h2 class="year">2025</h2>
-
-        <div class="project" id="1629x-worlds-robot">
-            <h3>1629X Worlds Robot</h3>
-            <p class="blurb">Mechanical design and CAD for our 2025 VEX Worlds robot.</p>
-            <p>I did the mechanical design for team 1629X's 2025 season. The whole robot was
-                modeled in CAD before we cut anything, so we could check clearances, swap
-                subsystems in and out, and hand parts off to be machined.
-                <!-- TODO: a sentence on the actual mechanisms — intake, lift, drive --></p>
-            <!-- <figure><img src="img/1629x-cad.png" alt=""><figcaption></figcaption></figure> -->
-            <p class="links">
-                <!-- TODO: link the CAD doc and the match video -->
-                <a href="https://github.com/jahankg">github</a>
-            </p>
-        </div>
-
-        <div class="project" id="1629x-codebase">
-            <h3>1629X Worlds Codebase</h3>
-            <p class="blurb">Autonomous control for the 2025 robot.</p>
-            <p>The second-generation autonomous stack for 1629X. It used Monte Carlo localization
-                to track the robot's position on the field and a RAMSETE controller to follow
-                paths during the autonomous period.
-                <!-- TODO: note the language/framework (PROS/VEXcode, C++) --></p>
-            <p class="links">
-                <!-- TODO: github repo -->
-                <a href="https://github.com/jahankg">github</a>
-            </p>
-        </div>
-
-        <div class="project" id="vpm">
-            <h3>VPM</h3>
-            <p class="blurb">A package manager for VEX projects.</p>
-            <p>VPM installs libraries straight from GitHub into a VEXcode project with a single
-                command, instead of copying files around by hand.
-                <!-- TODO: install instructions / repo link --></p>
-            <p class="links">
-                <!-- TODO: github repo -->
-                <a href="https://github.com/jahankg">github</a>
-            </p>
-        </div>
-
-        <div class="project" id="skills">
-            <h3>World Skills Leaderboard</h3>
-            <p class="blurb">Live rankings for the VEX skills competition.</p>
-            <p>A live leaderboard that pulls skills scores and ranks the top high school teams by
-                their combined driver and autonomous runs. It runs as its own app at
-                <a href="https://skills.jahankg.com">skills.jahankg.com</a>.</p>
-            <p class="links">
-                <a href="https://skills.jahankg.com">skills.jahankg.com</a>
-            </p>
-        </div>
+        <ul>
+            <li id="1629x-worlds-robot"><a href="https://github.com/1629X/1629X-Worlds-CAD">1629X Worlds Robot</a> &mdash; design and CAD for the 2025 VEX Worlds robot</li>
+            <li id="1629x-codebase"><a href="https://github.com/1629X/1629X-highstakes-v2">1629X Codebase</a> &mdash; second-gen autonomous using Monte Carlo localization and a RAMSETE controller</li>
+            <li id="skills"><a href="https://skills.jahankg.com">World Skills Leaderboard</a> &mdash; live global rankings for the VEX skills competition</li>
+        </ul>
 
         <footer>
             <a href="/">&larr; home</a>
