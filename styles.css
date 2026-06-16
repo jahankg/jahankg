@@ -73,14 +73,6 @@ a:hover {
     color: #666;
 }
 
-.muted {
-    color: #666;
-}
-
-.italic {
-    font-style: italic;
-}
-
 footer {
     margin-top: 3rem;
     font-size: 0.95rem;
@@ -88,10 +80,6 @@ footer {
 }
 
 /* portfolio */
-.wrap.wide {
-    max-width: 760px;
-}
-
 .year {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 0.85rem;
@@ -99,47 +87,6 @@ footer {
     margin: 2.5rem 0 1.25rem;
     padding-bottom: 0.35rem;
     border-bottom: 1px solid #ddd;
-}
-
-.project {
-    margin-bottom: 2.5rem;
-}
-
-.project h3 {
-    font-size: 1.25rem;
-    margin: 0 0 0.15rem;
-}
-
-.project .blurb {
-    font-style: italic;
-    color: #666;
-    margin: 0 0 0.6rem;
-}
-
-.project .links {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 0.8rem;
-    margin-top: 0.5rem;
-}
-
-.project .links a {
-    margin-right: 1.1rem;
-}
-
-figure {
-    margin: 1rem 0;
-}
-
-figure img {
-    max-width: 100%;
-    border: 1px solid #ddd;
-    display: block;
-}
-
-figcaption {
-    font-size: 0.9rem;
-    color: #666;
-    margin-top: 0.35rem;
 }
 
 @media (max-width: 600px) {
